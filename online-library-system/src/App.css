@@ -1,0 +1,274 @@
+
+
+.app {
+  background-color: #ebe8e8;
+  padding-top: 5px;
+  padding-inline: 50px;
+  height: auto;
+}
+
+
+.home-container {
+  text-align: center;
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+}
+
+.welcome-title {
+  font-size: 3em;
+  color: #0e0e0e;
+  margin-bottom: 20px;
+}
+
+.category-title, .popular-title {
+  font-size: 1.8em;
+  color: #444;
+  margin: 20px 0 10px;
+}
+
+.category-list, .popular-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.category-list li, .popular-list li {
+  margin: 10px 0;
+}
+
+.category-link, .popular-link {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #007bff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+  background-color: #ffffff;
+  margin-inline: 20px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-inline: auto;
+}
+
+.navbar-brand h1 {
+  color: black;
+  margin: 0;
+  padding-inline: 5px;
+  padding-right: 25px;
+  font-size: 1.2em;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-link {
+  color: black;
+  text-decoration: none;
+  padding: 10px 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-link:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+
+.homepageitems{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+
+}
+
+
+
+
+
+
+.category-image, .popular-image {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border: #ebe8e8;
+  border-width: 4px;
+  border-radius: 8px; 
+  margin-bottom: 5px; 
+}
+
+.category-list{
+  display: flex;
+  flex-direction: row;
+  
+  padding-inline: 200px;
+  justify-content: space-between;
+}
+
+.popular-list{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+
+.category-item{
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+}
+
+
+.book-item{
+  font-size: medium;
+}
+
+.popularList{
+  padding-inline: 200px;
+}
+
+
+.browse-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+
+.browse-container{
+  height: auto;
+}
+
+.book-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.book-item {
+  padding: 10px;
+  border-bottom: 1px solid #000;
+}
+
+.book-item:last-child {
+  border-bottom: none; /* Remove border from the last item */
+}
+
+.book-link {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.book-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+
+
+
+
+
+
+.book-details-container {
+  padding: 20px;
+}
+
+.book-detail-image {
+  width: 200px; 
+  height: auto; 
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #000;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.back-link:hover {
+  background-color: #f0f0f0; 
+}
+
+
+
+
+.add-book-form {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.add-book-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.add-book-form input,
+.add-book-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.add-book-form button {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(130, 130, 130);
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.add-book{
+  height: auto;
+}
+
+
